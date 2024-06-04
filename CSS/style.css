@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://th.bing.com/th/id/R.31973c6a98b31ef622a310449ca81a7b?rik=OhsRvihzgvjD%2bQ&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1049410%2fthumbs%2fo-CARAMBAR_CARAMEL-facebook.jpg&ehk=tsqRQ9DZAfFaqIDn%2f7zp1SBFUmTQbXWOsJ3RqPrsHwk%3d&risl=&pid=ImgRaw&r=0');
+    color: black;
+}
+
+#btnrandom{
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    top: 30%;
+    left: 60%;
+    border-radius: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#question{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 30%;
+    left: 60%;
+}
+
+#reponse{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 45%;
+    left: 60%;
+}
