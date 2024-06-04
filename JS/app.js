@@ -5,7 +5,7 @@ const reponse = document.getElementById("reponse");
 let data = [];
 
 const getData = async () => {
-    const req = await fetch("https://exam-back-1.onrender.com/epreuve/v1/blague");
+    const req = await fetch("https://exam-back-h0di.onrender.com/epreuve/v1/blague");
     console.log(req);
     const dbblague = await req.json();
     console.log("result", dbblague);
